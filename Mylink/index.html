@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyLink - 내 링크 모음</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, "Noto Sans KR", "Malgun Gothic", sans-serif;
+      background: linear-gradient(160deg, #e0e7ff, #fce7f3);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 40px 16px;
+    }
+    .card { width: 100%; max-width: 420px; text-align: center; }
+    .avatar {
+      width: 96px; height: 96px; border-radius: 50%;
+      background: #6366f1; color: #fff; font-size: 40px;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 16px;
+    }
+    h1 { font-size: 24px; margin-bottom: 8px; color: #1e1b4b; }
+    p { color: #4b5563; margin-bottom: 28px; }
+    a.link {
+      display: block; padding: 14px 18px; margin-bottom: 12px;
+      background: #fff; color: #1e1b4b; text-decoration: none;
+      border-radius: 14px; font-weight: 600;
+      box-shadow: 0 2px 8px rgba(0,0,0,.08);
+      transition: transform .15s;
+    }
+    a.link:hover { transform: translateY(-2px); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">😊</div>
+    <h1>이고운</h1> 
+    <p>바이브코딩을 배우고 있는 학생입니다.</p> 
+
+    
+    <a class="link" href="https://github.com/rlorl" target="_blank">🐙 내 GitHub</a>
+    <a class="link" href="https://www.instagram.com/hanyang_univ" target="_blank">📷 Instagram</a>
+    <a class="link" href="mailto:rlorl@hanyang.ac.kr">✉️ 이메일 보내기</a>
+  </div>
+</body>
+</html>
